@@ -1,0 +1,411 @@
+<html>
+<head>
+<title>BIT Noida Time Table</title>
+</head>
+<body>
+<table border = "5" align = "center">
+<tr>
+<th colspan = "13" > Time-Table for the Session - Spring</th>
+<tr>
+    
+<tr>
+    <td><b>day</b></td>
+    <td><b>batch</b></td>
+    <td><b>room</b></td>
+    <td align = "center"><b>9:00-10:00</b></td>
+    <td align = "center"><b>10:00-11:00</b></td>
+    <td align = "center"><b>11:00-12:00</b></td>
+    <td align = "center"><b>12:00-13:00</b></td>
+    <td align = "center"><b>13:00-13:30</b></td>
+    <td align = "center"><b>13:30-14:30</b></td>
+    <td align = "center"><b>14:30-15:30</b></td>
+    <td align = "center"><b>15:30-16:30</b></td>
+    <td align = "center"><b>16:30-17:30</b></td>
+</tr>
+
+<tr>
+    <td rowspan ="6"><b>MON</td>
+    <td align = "left"><b>M.tech-II</td>
+    <td align = "center"><b> PL </td>
+    <td align = "center">CS511(SPS)</td>
+    <td align = "center">CS512(SKR)</td>
+    <td align = "center" colspan = "2">IT517(PJG)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">CS524(SMJ)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+     <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>MCA-IV</b></td>
+    <td align = "center"><b> UGL-2</td>
+    <td align = "center">MCA4004(MRM)-UGL-1</td>
+    <td align = "center">MCA4001(ANM)</td>
+    <td align = "center">MCA7209(SMS)</td>
+    <td align = "center">MCA4007(ABS)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">MCA4002(ANM)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    
+</tr>
+    <td><b>MCA-II</b></td>
+    <td align = "center"><b> 201</td></b>
+    <td align = "center">CA457(BBS)</td>
+    <td align = "center">CS455(SGL)</td>
+    <td align = "center">CA461(AKS)</td>
+    <td align = "center">CA460(SMK)-UGL-1</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">MTT117(KBS) </td>
+    <td align = "center">BT417(PTS)</td>
+    <td align = "center">CA458-UGL-1</td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-VI</b></td>
+    <td align = "center"><b> 001</td></b>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center">BCA 6001(ILS)</td>
+    <td align = "center">BCA 6007(PRJ)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA 6005(CRW) </td>
+    <td align = "center"><b>*ELECTIVE</td>
+    <td align = "center" colspan = "2">BCA 6010(SMS)-PG-Lab</td>
+</tr>
+<tr>
+    <td><b>BCA-IV</b></td>
+    <td align = "center"><b> 101</td></b>
+    <td align = "center">BCA4007(CRW)</td>
+    <td align = "center">BCA4009(PRJ)</td>
+    <td align = "center">BCA4003(PTS)</td>
+    <td align = "center">BCA4005(SSR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA4001(PYT) </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-II</b></td>
+    <td align = "center"><b> 201</td></b>
+    <td align = "center"></td>
+    <td align = "center" colspan = "2">CA159(SMJ)-UGL-1</td>
+    <td align = "center">CA157(SKR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">CA161(ANJ)-UGL-1</td>
+    <td align = "center">CA155(LPJ)</td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+<td bgcolor = "red" colspan = "13"><h3> </td>
+</tr>
+<tr>
+    <td rowspan ="6"><b>TUE</td>
+    <td align = "left"><b>M.tech-II</td>
+    <td align = "center"><b> PL </td>
+    <td align = "center">CS511(SPS)</td>
+    <td align = "center">CS512(SKR)</td>
+    <td align = "center" colspan = "2">IT517(PJG)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">CS524(SMJ)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>MCA-IV</b></td>
+    <td align = "center"><b> UGL-2</td>
+    <td align = "center">MCA4004(MRM)-UGL-1</td>
+    <td align = "center">MCA4001(ANM)</td>
+    <td align = "center">MCA7209(SMS)</td>
+    <td align = "center">MCA4007(ABS)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">MCA4002(ANM)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    
+</tr>
+<td><b>MCA-II</b></td>
+<td align = "center"><b> 201</td></b>
+<td align = "center">CA457(BBS)</td>
+<td align = "center">CS455(SGL)</td>
+<td align = "center">CA461(AKS)</td>
+<td align = "center">CA460(SMK)-UGL-1</td>
+<td align = "center"><b>BREAK</td>
+<td align = "center">MTT117(KBS) </td>
+<td align = "center">BT417(PTS)</td>
+<td align = "center">CA458-UGL-1</td>
+<td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-VI</b></td>
+    <td align = "center"><b> 001</td></b>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center">BCA 6001(ILS)</td>
+    <td align = "center">BCA 6007(PRJ)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA 6005(CRW) </td>
+    <td align = "center"><b>*ELECTIVE</td>
+    <td align = "center" colspan = "2">BCA 6010(SMS)-PG-Lab</td>
+</tr>
+<tr>
+    <td><b>BCA-IV</b></td>
+    <td align = "center"><b> 101</td></b>
+    <td align = "center">BCA4007(CRW)</td>
+    <td align = "center">BCA4009(PRJ)</td>
+    <td align = "center">BCA4003(PTS)</td>
+    <td align = "center">BCA4005(SSR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA4001(PYT) </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-II</b></td>
+    <td align = "center"><b> 201</td></b>
+    <td align = "center"></td>
+    <td align = "center" colspan = "2">CA159(SMJ)-UGL-1</td>
+    <td align = "center">CA157(SKR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">CA161(ANJ)-UGL-1</td>
+    <td align = "center">CA155(LPJ)</td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td bgcolor = "red" colspan = "13"><h3> </td>
+</tr>
+<tr>
+    <td rowspan ="6"><b>WED</td>
+    <td align = "left"><b>M.tech-II</td>
+    <td align = "center"><b> PL </td>
+    <td align = "center">CS511(SPS)</td>
+    <td align = "center">CS512(SKR)</td>
+    <td align = "center" colspan = "2">IT517(PJG)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">CS524(SMJ)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>MCA-IV</b></td>
+    <td align = "center"><b> UGL-2</td>
+    <td align = "center">MCA4004(MRM)-UGL-1</td>
+    <td align = "center">MCA4001(ANM)</td>
+    <td align = "center">MCA7209(SMS)</td>
+    <td align = "center">MCA4007(ABS)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">MCA4002(ANM)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    
+</tr>
+<td><b>MCA-II</b></td>
+<td align = "center"><b> 201</td></b>
+<td align = "center">CA457(BBS)</td>
+<td align = "center">CS455(SGL)</td>
+<td align = "center">CA461(AKS)</td>
+<td align = "center">CA460(SMK)-UGL-1</td>
+<td align = "center"><b>BREAK</td>
+<td align = "center">MTT117(KBS) </td>
+<td align = "center">BT417(PTS)</td>
+<td align = "center">CA458-UGL-1</td>
+<td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-VI</b></td>
+    <td align = "center"><b> 001</td></b>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center">BCA 6001(ILS)</td>
+    <td align = "center">BCA 6007(PRJ)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA 6005(CRW) </td>
+    <td align = "center"><b>*ELECTIVE</td>
+    <td align = "center" colspan = "2">BCA 6010(SMS)-PG-Lab</td>
+</tr>
+<tr>
+    <td><b>BCA-IV</b></td>
+    <td align = "center"><b> 101</td></b>
+    <td align = "center">BCA4007(CRW)</td>
+    <td align = "center">BCA4009(PRJ)</td>
+    <td align = "center">BCA4003(PTS)</td>
+    <td align = "center">BCA4005(SSR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA4001(PYT) </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-II</b></td>
+    <td align = "center"><b> 201</td></b>
+    <td align = "center"></td>
+    <td align = "center" colspan = "2">CA159(SMJ)-UGL-1</td>
+    <td align = "center">CA157(SKR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">CA161(ANJ)-UGL-1</td>
+    <td align = "center">CA155(LPJ)</td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td bgcolor = "red" colspan = "13"><h3> </td>
+</tr>
+<tr>
+    <td rowspan ="6"><b>THU</td>
+    <td align = "left"><b>M.tech-II</td>
+    <td align = "center"><b> PL </td>
+    <td align = "center">CS511(SPS)</td>
+    <td align = "center">CS512(SKR)</td>
+    <td align = "center" colspan = "2">IT517(PJG)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">CS524(SMJ)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>MCA-IV</b></td>
+    <td align = "center"><b> UGL-2</td>
+    <td align = "center">MCA4004(MRM)-UGL-1</td>
+    <td align = "center">MCA4001(ANM)</td>
+    <td align = "center">MCA7209(SMS)</td>
+    <td align = "center">MCA4007(ABS)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">MCA4002(ANM)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    
+</tr>
+<td><b>MCA-II</b></td>
+<td align = "center"><b> 201</td></b>
+<td align = "center">CA457(BBS)</td>
+<td align = "center">CS455(SGL)</td>
+<td align = "center">CA461(AKS)</td>
+<td align = "center">CA460(SMK)-UGL-1</td>
+<td align = "center"><b>BREAK</td>
+<td align = "center">MTT117(KBS) </td>
+<td align = "center">BT417(PTS)</td>
+<td align = "center">CA458-UGL-1</td>
+<td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-VI</b></td>
+    <td align = "center"><b> 001</td></b>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center">BCA 6001(ILS)</td>
+    <td align = "center">BCA 6007(PRJ)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA 6005(CRW) </td>
+    <td align = "center"><b>*ELECTIVE</td>
+    <td align = "center" colspan = "2">BCA 6010(SMS)-PG-Lab</td>
+</tr>
+<tr>
+    <td><b>BCA-IV</b></td>
+    <td align = "center"><b> 101</td></b>
+    <td align = "center">BCA4007(CRW)</td>
+    <td align = "center">BCA4009(PRJ)</td>
+    <td align = "center">BCA4003(PTS)</td>
+    <td align = "center">BCA4005(SSR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA4001(PYT) </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-II</b></td>
+    <td align = "center"><b> 201</td></b>
+    <td align = "center"></td>
+    <td align = "center" colspan = "2">CA159(SMJ)-UGL-1</td>
+    <td align = "center">CA157(SKR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">CA161(ANJ)-UGL-1</td>
+    <td align = "center">CA155(LPJ)</td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td bgcolor = "red" colspan = "13"><h3> </td>
+</tr>
+<tr>
+    <td rowspan ="6"><b>FRI</td>
+    <td align = "left"><b>M.tech-II</td>
+    <td align = "center"><b> PL </td>
+    <td align = "center">CS511(SPS)</td>
+    <td align = "center">CS512(SKR)</td>
+    <td align = "center" colspan = "2">IT517(PJG)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">CS524(SMJ)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>MCA-IV</b></td>
+    <td align = "center"><b> UGL-2</td>
+    <td align = "center">MCA4004(MRM)-UGL-1</td>
+    <td align = "center">MCA4001(ANM)</td>
+    <td align = "center">MCA7209(SMS)</td>
+    <td align = "center">MCA4007(ABS)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">MCA4002(ANM)</td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    
+</tr>
+<td><b>MCA-II</b></td>
+<td align = "center"><b> 201</td></b>
+<td align = "center">CA457(BBS)</td>
+<td align = "center">CS455(SGL)</td>
+<td align = "center">CA461(AKS)</td>
+<td align = "center">CA460(SMK)-UGL-1</td>
+<td align = "center"><b>BREAK</td>
+<td align = "center">MTT117(KBS) </td>
+<td align = "center">BT417(PTS)</td>
+<td align = "center">CA458-UGL-1</td>
+<td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-VI</b></td>
+    <td align = "center"><b> 001</td></b>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center">BCA 6001(ILS)</td>
+    <td align = "center">BCA 6007(PRJ)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA 6005(CRW) </td>
+    <td align = "center"><b>*ELECTIVE</td>
+    <td align = "center" colspan = "2">BCA 6010(SMS)-PG-Lab</td>
+</tr>
+<tr>
+    <td><b>BCA-IV</b></td>
+    <td align = "center"><b> 101</td></b>
+    <td align = "center">BCA4007(CRW)</td>
+    <td align = "center">BCA4009(PRJ)</td>
+    <td align = "center">BCA4003(PTS)</td>
+    <td align = "center">BCA4005(SSR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center">BCA4001(PYT) </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+    <td align = "center"> </td>
+</tr>
+<tr>
+    <td><b>BCA-II</b></td>
+    <td align = "center"><b> 201</td></b>
+    <td align = "center"></td>
+    <td align = "center" colspan = "2">CA159(SMJ)-UGL-1</td>
+    <td align = "center">CA157(SKR)</td>
+    <td align = "center"><b>BREAK</td>
+    <td align = "center" colspan = "2">CA161(ANJ)-UGL-1</td>
+    <td align = "center">CA155(LPJ)</td>
+    <td align = "center"> </td>
+</tr>
+
+</table>
+</body>
+</htmL>
