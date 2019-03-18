@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct node
@@ -90,3 +91,4 @@ void display(node* temp)
     }
     
 }
+
