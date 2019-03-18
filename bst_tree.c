@@ -1,94 +1,120 @@
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct node
 {
-    int data;
-    struct node* left;
-    struct node* right;
+    int key;
+    struct node *left, *right;
 }node;
-node* root = NULL, *newNode;
-node* createNode(int data)
-{
-    newNode = (node*)malloc(sizeof(node));
-    newNode->data = data;
-    newNode->left = newNode->right = NULL;
-    return newNode;
-}
-void insert();
 void display();
-
+node* newNode (int item)
+{
+    node* temp = (struct node *)malloc(sizeof(struct node));
+    temp->key = item;
+    temp->left = temp->right = NULL;
+    return temp;
+}
+void inorder(struct node *root)
+{
+    if (root != NULL)
+    {
+        inorder(root->left);
+        printf("%d \n", root->key);
+        inorder(root->right);
+    }
+}
+ node* insert(struct node* node, int key)
+{
+    /* If the tree is empty, return a new node */
+    if (node == NULL)
+    {
+       // printf("Newode is create of key : %d\n", key);
+            return newNode(key);
+    }
+    
+    /* Otherwise, recur down the tree */
+    if (key < node->key)
+    {
+      //  printf("Newode is inserted in left->%d of key : %d\n",node->key, key);
+        node->left  = insert(node->left, key);
+    }
+    else if (key > node->key)
+    {
+       // printf("Newode is inserted in right->%d of key : %d\n",node->key, key);
+        node->right = insert(node->right, key);
+    }
+    
+    /* return the (unchanged) node pointer */
+    return node;
+}
+// Driver Program to test above functions
+struct node *root = NULL;
 int main()
 {
-    int data;
-    /*create root*/
-   /* root = createNode(1);
-    root->left        = createNode(2);
-    root->right       = createNode(3);
-    root->left->left  = createNode(4);*/
+    /* Let us create following BST
+        50
+     /     \
+   30      70
+  /  \    /  \
+20   40  60   80 */
     
-    printf("Enter root of the tree\n");
-    scanf(" %d", &data);
-    root = createNode(data);
+    root = insert(root, 12);
+    insert(root, 5);
+    insert(root, 15);
+    insert(root, 3);
+    insert(root, 7);
+    insert(root, 1);
+    insert(root, 9);
+    insert(root, 8);
+    insert(root, 11);
+    insert(root, 13);
+    insert(root, 17);
+    insert(root, 19);
     
+    
+    // print inoder traversal of the BST
+    //inorder(root);
     display(root);
-    getchar();
     
     return 0;
 }
-void insert(node* temp)
-{
-    char input;
-    int data;
-    printf("The leaf is %d\n",temp->data);
-    printf("[a] insert Left [d] insert Right\n");
-    scanf(" %c",&input);
-    printf("Enter data: ");
-    scanf(" %d",&data);
-    if(input == 'a')
-    {
-        temp->left = createNode(data);
-        display(root);
-    }
-    else if(input == 'd')
-    {
-        temp->right = createNode(data);
-        display(root);
-    }
-    
-}
 void display(node* temp)
 {
-    char inp;
-    int data;
+    char op=0;
     if(temp == root)
-    {
-        printf("root: %d\n",root->data);
-    }
-    printf("[a]left [d]right [w]root [s]insert\n");
-    scanf(" %c",&inp);
+        printf("root is %d\n",root->key);
     
-    if(inp == 'a')
-    {
-        temp = temp->left;
-        printf("data : %d\n",temp->data);
-        display(temp);
-    }
-    else if(inp == 'd')
-    {
-        temp = temp->right;
-        printf("data : %d\n",temp->data);
-        display(temp);
-    }
-    else if(inp == 'w')
-    {
-        temp = root;
-        display(temp);
-    }
-    else if(inp == 's')
-    {
-        insert(temp);
-    }
     
+    while(temp != NULL)
+    {
+        printf("traverse left[a] right[d]\n");
+        scanf(" %c", &op);
+   
+        if(op == 'a')
+        {
+            temp = temp->left;
+            printf("%d\n",temp->key);
+            
+        }
+        else if(op == 'd')
+        {
+            temp = temp->right;
+            printf("%d\n",temp->key);
+            
+        }
+        if(temp->left == NULL && temp->right == NULL)
+        {
+            printf("%d is leaf exit tree\n", temp->key);
+            temp = NULL;
+            printf("[w] root [s]exit\n");
+            scanf(" %c", &op);
+            if(op == 'w')
+            {
+                display(root);
+            }else
+                return;
+        }
+        
+    }
 }
-
